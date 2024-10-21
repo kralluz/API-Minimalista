@@ -116,7 +116,7 @@ api.post('/data', (req, res, next) => {
     res.json({ receivedData: data });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3010;
 api.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`);
 });
